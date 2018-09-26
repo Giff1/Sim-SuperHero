@@ -1798,6 +1798,15 @@ Prefab:
       propertyPath: m_Name
       value: BrickWall (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 212799502738476696, guid: 99998312f55cc3341b9175a014c9c8b8,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396252100980060, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
   m_IsPrefabAsset: 0
@@ -4073,6 +4082,15 @@ Prefab:
       propertyPath: m_Name
       value: BrickWall (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 212799502738476696, guid: 99998312f55cc3341b9175a014c9c8b8,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396252100980060, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
   m_IsPrefabAsset: 0
@@ -4151,7 +4169,7 @@ GameObject:
   m_Component:
   - component: {fileID: 141979235}
   m_Layer: 0
-  m_Name: Hardwood Floor (1)
+  m_Name: Garage Floors
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4384,7 +4402,7 @@ Transform:
   - {fileID: 35344603}
   - {fileID: 1816755308}
   m_Father: {fileID: 1090900902}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &144034882
 Prefab:
@@ -6969,6 +6987,15 @@ Prefab:
       propertyPath: m_Name
       value: BrickWall (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 212799502738476696, guid: 99998312f55cc3341b9175a014c9c8b8,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396252100980060, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
   m_IsPrefabAsset: 0
@@ -7942,6 +7969,15 @@ Prefab:
     - target: {fileID: 1396252100980060, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
       propertyPath: m_Name
       value: BrickWall (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 212799502738476696, guid: 99998312f55cc3341b9175a014c9c8b8,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396252100980060, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
@@ -9459,106 +9495,6 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96ee63ae602c3f34893050d24fab9c48, type: 2}
   m_IsPrefabAsset: 0
---- !u!1001 &307416145
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1090900902}
-    m_Modifications:
-    - target: {fileID: 4030987965802500, guid: 07ad073e59fa065428e4dad431354578, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -0.2947197
-      objectReference: {fileID: 0}
-    - target: {fileID: 4030987965802500, guid: 07ad073e59fa065428e4dad431354578, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -0.9229423
-      objectReference: {fileID: 0}
-    - target: {fileID: 4030987965802500, guid: 07ad073e59fa065428e4dad431354578, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: -2.5625
-      objectReference: {fileID: 0}
-    - target: {fileID: 4030987965802500, guid: 07ad073e59fa065428e4dad431354578, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4030987965802500, guid: 07ad073e59fa065428e4dad431354578, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4030987965802500, guid: 07ad073e59fa065428e4dad431354578, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4030987965802500, guid: 07ad073e59fa065428e4dad431354578, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4030987965802500, guid: 07ad073e59fa065428e4dad431354578, type: 2}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 61098378232139446, guid: 07ad073e59fa065428e4dad431354578,
-        type: 2}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 61098378232139446, guid: 07ad073e59fa065428e4dad431354578,
-        type: 2}
-      propertyPath: m_Offset.y
-      value: 0.011713743
-      objectReference: {fileID: 0}
-    - target: {fileID: 61098378232139446, guid: 07ad073e59fa065428e4dad431354578,
-        type: 2}
-      propertyPath: m_Size.y
-      value: 0.3865725
-      objectReference: {fileID: 0}
-    - target: {fileID: 61098378232139446, guid: 07ad073e59fa065428e4dad431354578,
-        type: 2}
-      propertyPath: m_Offset.x
-      value: -0.025719225
-      objectReference: {fileID: 0}
-    - target: {fileID: 61098378232139446, guid: 07ad073e59fa065428e4dad431354578,
-        type: 2}
-      propertyPath: m_Size.x
-      value: 0.071145535
-      objectReference: {fileID: 0}
-    - target: {fileID: 212954955909162162, guid: 07ad073e59fa065428e4dad431354578,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 61098378232139446, guid: 07ad073e59fa065428e4dad431354578,
-        type: 2}
-      propertyPath: m_UsedByEffector
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 212954955909162162, guid: 07ad073e59fa065428e4dad431354578,
-        type: 2}
-      propertyPath: m_SortingLayerID
-      value: 1247820099
-      objectReference: {fileID: 0}
-    - target: {fileID: 212954955909162162, guid: 07ad073e59fa065428e4dad431354578,
-        type: 2}
-      propertyPath: m_SortingLayer
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114085929157467298, guid: 07ad073e59fa065428e4dad431354578,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1016591116766330, guid: 07ad073e59fa065428e4dad431354578, type: 2}
-      propertyPath: m_Name
-      value: Door (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4030987965802500, guid: 07ad073e59fa065428e4dad431354578, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 11.18
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 07ad073e59fa065428e4dad431354578, type: 2}
-  m_IsPrefabAsset: 0
 --- !u!1001 &307439793
 Prefab:
   m_ObjectHideFlags: 0
@@ -9948,6 +9884,15 @@ Prefab:
     - target: {fileID: 1396252100980060, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
       propertyPath: m_Name
       value: BrickWall (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 212799502738476696, guid: 99998312f55cc3341b9175a014c9c8b8,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396252100980060, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
@@ -11071,6 +11016,15 @@ Prefab:
       propertyPath: m_Name
       value: BrickWall (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 212799502738476696, guid: 99998312f55cc3341b9175a014c9c8b8,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396252100980060, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
   m_IsPrefabAsset: 0
@@ -11315,6 +11269,15 @@ Prefab:
     - target: {fileID: 1396252100980060, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
       propertyPath: m_Name
       value: BrickWall (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 212799502738476696, guid: 99998312f55cc3341b9175a014c9c8b8,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396252100980060, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
@@ -12392,6 +12355,15 @@ Prefab:
       propertyPath: m_Name
       value: BrickWall (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 212799502738476696, guid: 99998312f55cc3341b9175a014c9c8b8,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396252100980060, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
   m_IsPrefabAsset: 0
@@ -12417,7 +12389,7 @@ GameObject:
   - component: {fileID: 398249823}
   - component: {fileID: 398249822}
   m_Layer: 0
-  m_Name: Doormat (1)
+  m_Name: Garage Doormat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12430,8 +12402,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 398249820}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.4447193, y: -1.8829423, z: -2.5625}
-  m_LocalScale: {x: 5.32, y: 1, z: 1}
+  m_LocalPosition: {x: -0.4447193, y: -1.91, z: -2.5625}
+  m_LocalScale: {x: 5.3200006, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1090900902}
   m_RootOrder: 5
@@ -12444,7 +12416,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 398249820}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 11022e8fff00d5a429962293f6548249, type: 3}
+  m_Script: {fileID: 11500000, guid: 34a7cf464e53de148b4698e0c48caf82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!61 &398249823
@@ -13791,6 +13763,15 @@ Prefab:
       propertyPath: m_Name
       value: BrickWall (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 212799502738476696, guid: 99998312f55cc3341b9175a014c9c8b8,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396252100980060, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
   m_IsPrefabAsset: 0
@@ -14180,11 +14161,6 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b865c58f1d5ad24409a39279a5d7eb36, type: 2}
   m_IsPrefabAsset: 0
---- !u!4 &447261696 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4030987965802500, guid: 07ad073e59fa065428e4dad431354578,
-    type: 2}
-  m_PrefabInternal: {fileID: 307416145}
 --- !u!4 &448599032 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4584627681228090, guid: 96ee63ae602c3f34893050d24fab9c48,
@@ -15142,6 +15118,15 @@ Prefab:
       propertyPath: m_Name
       value: BrickWall (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 212799502738476696, guid: 99998312f55cc3341b9175a014c9c8b8,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396252100980060, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
   m_IsPrefabAsset: 0
@@ -16035,6 +16020,15 @@ Prefab:
       propertyPath: m_Name
       value: BrickWall (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 212799502738476696, guid: 99998312f55cc3341b9175a014c9c8b8,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396252100980060, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
   m_IsPrefabAsset: 0
@@ -16336,6 +16330,15 @@ Prefab:
       propertyPath: m_Name
       value: BrickWall (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 212799502738476696, guid: 99998312f55cc3341b9175a014c9c8b8,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396252100980060, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
   m_IsPrefabAsset: 0
@@ -16544,6 +16547,15 @@ Prefab:
     - target: {fileID: 1396252100980060, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
       propertyPath: m_Name
       value: BrickWall (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 212799502738476696, guid: 99998312f55cc3341b9175a014c9c8b8,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396252100980060, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
@@ -17423,6 +17435,15 @@ Prefab:
       propertyPath: m_Name
       value: BrickWall (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 212799502738476696, guid: 99998312f55cc3341b9175a014c9c8b8,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396252100980060, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
   m_IsPrefabAsset: 0
@@ -17757,6 +17778,48 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4584627681228090, guid: 96ee63ae602c3f34893050d24fab9c48,
     type: 2}
   m_PrefabInternal: {fileID: 1143919868}
+--- !u!1001 &556212102
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1090900902}
+    m_Modifications:
+    - target: {fileID: 4542540073809996, guid: 1281ed6c95dea9843b9e6a9e167e42ef, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 4542540073809996, guid: 1281ed6c95dea9843b9e6a9e167e42ef, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -0.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 4542540073809996, guid: 1281ed6c95dea9843b9e6a9e167e42ef, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -2.5625
+      objectReference: {fileID: 0}
+    - target: {fileID: 4542540073809996, guid: 1281ed6c95dea9843b9e6a9e167e42ef, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4542540073809996, guid: 1281ed6c95dea9843b9e6a9e167e42ef, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4542540073809996, guid: 1281ed6c95dea9843b9e6a9e167e42ef, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4542540073809996, guid: 1281ed6c95dea9843b9e6a9e167e42ef, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4542540073809996, guid: 1281ed6c95dea9843b9e6a9e167e42ef, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1281ed6c95dea9843b9e6a9e167e42ef, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1001 &558440215
 Prefab:
   m_ObjectHideFlags: 0
@@ -18910,7 +18973,7 @@ GameObject:
   m_Component:
   - component: {fileID: 595349949}
   m_Layer: 0
-  m_Name: Solid Walls (1)
+  m_Name: Garage Solid Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19512,6 +19575,15 @@ Prefab:
     - target: {fileID: 1396252100980060, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
       propertyPath: m_Name
       value: BrickWall (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 212799502738476696, guid: 99998312f55cc3341b9175a014c9c8b8,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396252100980060, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
@@ -20738,6 +20810,15 @@ Prefab:
       propertyPath: m_Name
       value: BrickWall (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 212799502738476696, guid: 99998312f55cc3341b9175a014c9c8b8,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396252100980060, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
   m_IsPrefabAsset: 0
@@ -21242,6 +21323,15 @@ Prefab:
     - target: {fileID: 1396252100980060, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
       propertyPath: m_Name
       value: BrickWall (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 212799502738476696, guid: 99998312f55cc3341b9175a014c9c8b8,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396252100980060, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
@@ -21981,6 +22071,15 @@ Prefab:
     - target: {fileID: 1396252100980060, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
       propertyPath: m_Name
       value: BrickWall (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 212799502738476696, guid: 99998312f55cc3341b9175a014c9c8b8,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396252100980060, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
@@ -25655,6 +25754,15 @@ Prefab:
       propertyPath: m_Name
       value: BrickWall (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 212799502738476696, guid: 99998312f55cc3341b9175a014c9c8b8,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396252100980060, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
   m_IsPrefabAsset: 0
@@ -28189,6 +28297,15 @@ Prefab:
       propertyPath: m_Name
       value: BrickWall (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 212799502738476696, guid: 99998312f55cc3341b9175a014c9c8b8,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396252100980060, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
   m_IsPrefabAsset: 0
@@ -28295,6 +28412,15 @@ Prefab:
     - target: {fileID: 1396252100980060, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
       propertyPath: m_Name
       value: BrickWall (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 212799502738476696, guid: 99998312f55cc3341b9175a014c9c8b8,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396252100980060, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
@@ -31080,6 +31206,15 @@ Prefab:
       propertyPath: m_Name
       value: BrickWall (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 212799502738476696, guid: 99998312f55cc3341b9175a014c9c8b8,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396252100980060, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
   m_IsPrefabAsset: 0
@@ -31199,7 +31334,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1072985830}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.0301, y: -7.25, z: 0}
+  m_LocalPosition: {x: 0.0301, y: -9.29, z: 0}
   m_LocalScale: {x: 0.13, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 595349949}
@@ -31658,9 +31793,9 @@ Transform:
   m_LocalPosition: {x: 2.6, y: 0.7629423, z: 2.5625}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 1930725985}
   - {fileID: 141979235}
   - {fileID: 1286227869}
-  - {fileID: 447261696}
   - {fileID: 595349949}
   - {fileID: 1463704437}
   - {fileID: 398249821}
@@ -35738,6 +35873,15 @@ Prefab:
       propertyPath: m_Name
       value: BrickWall (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 212799502738476696, guid: 99998312f55cc3341b9175a014c9c8b8,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396252100980060, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
   m_IsPrefabAsset: 0
@@ -36560,6 +36704,15 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 212799502738476696, guid: 99998312f55cc3341b9175a014c9c8b8,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396252100980060, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
   m_IsPrefabAsset: 0
@@ -36791,6 +36944,15 @@ Prefab:
     - target: {fileID: 1396252100980060, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
       propertyPath: m_Name
       value: BrickWall (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 212799502738476696, guid: 99998312f55cc3341b9175a014c9c8b8,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396252100980060, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
@@ -37130,7 +37292,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1286227869}
   m_Layer: 0
-  m_Name: Brick Wall (1)
+  m_Name: Garage Brick Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -37187,7 +37349,7 @@ Transform:
   - {fileID: 984581284}
   - {fileID: 116899083}
   m_Father: {fileID: 1090900902}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1286396575
 Prefab:
@@ -39585,7 +39747,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1351458106}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.0338, y: -7.31, z: 0}
+  m_LocalPosition: {x: -0.0338, y: -9.28, z: 0}
   m_LocalScale: {x: 0.13, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 595349949}
@@ -40020,6 +40182,15 @@ Prefab:
     - target: {fileID: 1396252100980060, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
       propertyPath: m_Name
       value: BrickWall (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 212799502738476696, guid: 99998312f55cc3341b9175a014c9c8b8,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396252100980060, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
@@ -41912,6 +42083,15 @@ Prefab:
       propertyPath: m_Name
       value: BrickWall (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 212799502738476696, guid: 99998312f55cc3341b9175a014c9c8b8,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396252100980060, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
   m_IsPrefabAsset: 0
@@ -42351,7 +42531,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1463704437}
   m_Layer: 0
-  m_Name: Roof (1)
+  m_Name: Garage Roof
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42619,6 +42799,15 @@ Prefab:
     - target: {fileID: 1396252100980060, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
       propertyPath: m_Name
       value: BrickWall (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 212799502738476696, guid: 99998312f55cc3341b9175a014c9c8b8,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396252100980060, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
@@ -43110,6 +43299,15 @@ Prefab:
       propertyPath: m_Name
       value: BrickWall (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 212799502738476696, guid: 99998312f55cc3341b9175a014c9c8b8,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396252100980060, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
   m_IsPrefabAsset: 0
@@ -43155,6 +43353,15 @@ Prefab:
     - target: {fileID: 1396252100980060, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
       propertyPath: m_Name
       value: BrickWall (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 212799502738476696, guid: 99998312f55cc3341b9175a014c9c8b8,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396252100980060, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
@@ -44683,6 +44890,15 @@ Prefab:
     - target: {fileID: 1396252100980060, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
       propertyPath: m_Name
       value: BrickWall (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 212799502738476696, guid: 99998312f55cc3341b9175a014c9c8b8,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396252100980060, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
@@ -47118,6 +47334,15 @@ Prefab:
     - target: {fileID: 1396252100980060, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
       propertyPath: m_Name
       value: BrickWall (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 212799502738476696, guid: 99998312f55cc3341b9175a014c9c8b8,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396252100980060, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
@@ -51196,6 +51421,15 @@ Prefab:
       propertyPath: m_Name
       value: BrickWall (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 212799502738476696, guid: 99998312f55cc3341b9175a014c9c8b8,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396252100980060, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
   m_IsPrefabAsset: 0
@@ -52964,6 +53198,15 @@ Prefab:
       propertyPath: m_Name
       value: BrickWall (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 212799502738476696, guid: 99998312f55cc3341b9175a014c9c8b8,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396252100980060, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
   m_IsPrefabAsset: 0
@@ -54472,6 +54715,52 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4584627681228090, guid: 96ee63ae602c3f34893050d24fab9c48,
     type: 2}
   m_PrefabInternal: {fileID: 2028133280}
+--- !u!1 &1930725984 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1623962778173068, guid: 1281ed6c95dea9843b9e6a9e167e42ef,
+    type: 2}
+  m_PrefabInternal: {fileID: 556212102}
+--- !u!4 &1930725985 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4542540073809996, guid: 1281ed6c95dea9843b9e6a9e167e42ef,
+    type: 2}
+  m_PrefabInternal: {fileID: 556212102}
+--- !u!114 &1930725986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1930725984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d805f0d61dbfe8b48be2ee2162af4a2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &1930725987
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1930725984}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.024022833, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.31, y: 0.41}
+    newSize: {x: 0.31, y: 0.41}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.26195434, y: 0.41}
+  m_EdgeRadius: 0
 --- !u!1001 &1931491581
 Prefab:
   m_ObjectHideFlags: 0
@@ -54861,6 +55150,15 @@ Prefab:
     - target: {fileID: 1396252100980060, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
       propertyPath: m_Name
       value: BrickWall (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 212799502738476696, guid: 99998312f55cc3341b9175a014c9c8b8,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396252100980060, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
@@ -55672,6 +55970,15 @@ Prefab:
     - target: {fileID: 1396252100980060, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
       propertyPath: m_Name
       value: BrickWall (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 212799502738476696, guid: 99998312f55cc3341b9175a014c9c8b8,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396252100980060, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
@@ -56671,6 +56978,15 @@ Prefab:
     - target: {fileID: 1396252100980060, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
       propertyPath: m_Name
       value: BrickWall (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 212799502738476696, guid: 99998312f55cc3341b9175a014c9c8b8,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396252100980060, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
@@ -59025,6 +59341,15 @@ Prefab:
       propertyPath: m_Name
       value: BrickWall (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 212799502738476696, guid: 99998312f55cc3341b9175a014c9c8b8,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396252100980060, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
   m_IsPrefabAsset: 0
@@ -60034,6 +60359,15 @@ Prefab:
       propertyPath: m_Name
       value: BrickWall (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 212799502738476696, guid: 99998312f55cc3341b9175a014c9c8b8,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396252100980060, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
   m_IsPrefabAsset: 0
@@ -60538,6 +60872,15 @@ Prefab:
     - target: {fileID: 1396252100980060, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
       propertyPath: m_Name
       value: BrickWall (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 212799502738476696, guid: 99998312f55cc3341b9175a014c9c8b8,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396252100980060, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99998312f55cc3341b9175a014c9c8b8, type: 2}
