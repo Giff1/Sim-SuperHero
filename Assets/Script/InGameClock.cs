@@ -5,10 +5,10 @@ using UnityEngine.UI;
 
 public class InGameClock : MonoBehaviour {
 
-	private const int TIMESCALE = 100;
+	private const int TIMESCALE = 300;
 
 	private Text clockText;
-	private Text dayText;
+	public static Text dayText;
 	private Text yearText;
 	private Text seasonText;
 
