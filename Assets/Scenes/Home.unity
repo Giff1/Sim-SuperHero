@@ -23555,6 +23555,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1766197541}
     m_Modifications:
+    - target: {fileID: 114117486826021380, guid: b865c58f1d5ad24409a39279a5d7eb36,
+        type: 2}
+      propertyPath: grass.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4566436013404708, guid: b865c58f1d5ad24409a39279a5d7eb36, type: 2}
       propertyPath: m_LocalPosition.x
       value: 10.592571
@@ -23587,6 +23592,24 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114117486826021380, guid: b865c58f1d5ad24409a39279a5d7eb36,
+        type: 2}
+      propertyPath: grass.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 19b79bea3027cd64eba57e74af4938dd,
+        type: 3}
+    - target: {fileID: 114117486826021380, guid: b865c58f1d5ad24409a39279a5d7eb36,
+        type: 2}
+      propertyPath: grass.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 9c8455b9259227843ada488ee5ed3acc,
+        type: 3}
+    - target: {fileID: 114117486826021380, guid: b865c58f1d5ad24409a39279a5d7eb36,
+        type: 2}
+      propertyPath: grass.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: 13dd4e2e4ee65634a81af263151f46bb,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b865c58f1d5ad24409a39279a5d7eb36, type: 2}
   m_IsPrefabAsset: 0
