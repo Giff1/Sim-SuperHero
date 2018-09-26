@@ -11,7 +11,7 @@ public class GarageDoorCollider : MonoBehaviour
     void Start()
     {
         garageDoor = gameObject;
-        garageDoormat = garageDoor.transform.Find("Garage Door").gameObject;
+        garageDoormat = GameObject.Find("Garage Doormat");
         
     }
 
@@ -21,7 +21,10 @@ public class GarageDoorCollider : MonoBehaviour
         GameObject.Find("Garage Brick Walls").SetActive(false);
         GameObject.Find("Garage Roof").SetActive(false);
 
+        print(garageDoormat.activeSelf);
         garageDoormat.SetActive(true);
+        print(garageDoormat.activeSelf);
+
         garageDoor.SetActive(false);
         
     }
