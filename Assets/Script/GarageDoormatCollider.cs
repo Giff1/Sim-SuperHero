@@ -17,9 +17,6 @@ public class GarageDoormatCollider : MonoBehaviour {
         GarageDoormat = GameObject.Find("Garage Doormat");
         GarageBrickWall = GameObject.Find("Garage Brick Walls");
         GarageRoof = GameObject.Find("Garage Roof");
-
-        GarageDoormat.SetActive(false);
-
     }
 
     void OnTriggerEnter2D(Collider2D col)
