@@ -13,8 +13,8 @@ public class GarageDoormatCollider : MonoBehaviour {
     void Start()
     {
 
-        GarageDoor = gameObject;
-        GarageDoormat = GameObject.Find("Garage Doormat");
+        GarageDoor = GameObject.Find("Garage Door");
+        GarageDoormat = gameObject;
         GarageBrickWall = GameObject.Find("Garage Brick Walls");
         GarageRoof = GameObject.Find("Garage Roof");
     }

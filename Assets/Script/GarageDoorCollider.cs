@@ -22,9 +22,7 @@ public class GarageDoorCollider : MonoBehaviour
         GameObject.Find("Garage Brick Walls").SetActive(false);
         GameObject.Find("Garage Roof").SetActive(false);
 
-        print(garageDoormat.activeSelf);
         garageDoormat.SetActive(true);
-        print(garageDoormat.activeSelf);
 
         garageDoor.SetActive(false);
         
