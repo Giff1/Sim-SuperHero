@@ -5,26 +5,29 @@ using UnityEngine.UI;
 
 public class InGameClock : MonoBehaviour {
 
-	private const int TIMESCALE = 300;
+	private const int TIMESCALE = 2500;
 
 	private Text clockText;
-	public static Text dayText;
+	private Text dayText;
 	private Text yearText;
 	private Text seasonText;
-
-	private double minute, hour, second, day, year, month;
+    
+	private float minute, hour, second, year, month;
+    public static float day;
 
 	void Start(){
-	
-		year = 1;
-		day = 1;
-		year = 1;
+
+        year = 1.0f;
+		day = 1.0f;
+		year = 1.0f;
 
 		clockText = GameObject.Find ("Clock").GetComponent<Text>();
 		dayText = GameObject.Find ("Day").GetComponent<Text>();
 		seasonText = GameObject.Find ("Season").GetComponent<Text> ();
 		yearText = GameObject.Find ("Year").GetComponent<Text> ();
-	}
+
+        
+    }
 
 	void Update(){
 		calculateTime ();
@@ -34,6 +37,8 @@ public class InGameClock : MonoBehaviour {
 		clockText.text = hour + ":" + minute;
 		dayText.text = "Day:" + day;
 		yearText.text = "Year: " + year;
+
+
 	}
 
 	void calculateSeason()
@@ -95,7 +100,7 @@ public class InGameClock : MonoBehaviour {
 			textCallFunction();
 		}else if (hour >= 24)
 		{
-			day++;
+   			day++;
 			hour = 0;
 			textCallFunction ();
 		}else if(day >= 28)

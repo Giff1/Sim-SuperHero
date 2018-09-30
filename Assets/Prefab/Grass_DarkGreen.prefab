@@ -52,9 +52,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 776042d8664eb0c41869b4d3b1e3dbd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  grassGreen: {fileID: 21300000, guid: 19b79bea3027cd64eba57e74af4938dd, type: 3}
-  grassLiteGreen: {fileID: 21300000, guid: 9c8455b9259227843ada488ee5ed3acc, type: 3}
-  grassYellow: {fileID: 21300000, guid: 13dd4e2e4ee65634a81af263151f46bb, type: 3}
+  greenGrass: {fileID: 21300000, guid: 19b79bea3027cd64eba57e74af4938dd, type: 3}
+  yellowGrass: {fileID: 21300000, guid: 9c8455b9259227843ada488ee5ed3acc, type: 3}
+  deadGrass: {fileID: 21300000, guid: 13dd4e2e4ee65634a81af263151f46bb, type: 3}
 --- !u!212 &212822982699406858
 SpriteRenderer:
   m_ObjectHideFlags: 1

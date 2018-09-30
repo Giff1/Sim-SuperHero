@@ -5,38 +5,48 @@ using UnityEngine;
 
 public class GrassDying : MonoBehaviour {
 
-    public Sprite[] grass;
-    private static Text day;
-    private Random randomGrass;
+    public Sprite greenGrass;
+    public Sprite yellowGrass;
+    public Sprite deadGrass;
+    private static float day;
     private SpriteRenderer spriteRenderer;
-
+ 
 	// Use this for initialization
 	void Start () {
-        day = InGameClock.dayText;
-        //spriteRenderer = GetComponent<SpriteRenderer>();
-        //if (spriteRenderer.sprite == null)
-        //{
-           // spriteRenderer.sprite = grassGreen;
-        //}
-        
-	}
-	
-	// Update is called once per frame
-	void Update () {
 
-        /*if(Input.GetKeyDown(KeyCode.Space))
+        day = InGameClock.day;
+
+        spriteRenderer = GetComponent<SpriteRenderer>();
+
+        if (spriteRenderer.sprite == null)
         {
-            spriteRenderer.sprite = grassLiteGreen;
+            spriteRenderer.sprite = greenGrass;
         }
-		*/
+        
+}
+
+// Update is called once per frame
+    void Update () {
+
+        if (day == 1)
+        {
+            spriteRenderer.sprite = yellowGrass;
+        }
+		
 	}
 
     void changeGrassColor()
     {
+        
+        if (spriteRenderer.sprite == greenGrass)
+        {
+            spriteRenderer.sprite = yellowGrass;
+        }
+        if(spriteRenderer.sprite == yellowGrass)
+        {
+            spriteRenderer.sprite = deadGrass;
+        }
 
-        //if (spriteRenderer.sprite == grassGreen)
-        //{
-         //   spriteRenderer.sprite = grassLiteGreen;
-        //}
+        
     }
 }
