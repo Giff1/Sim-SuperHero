@@ -5,48 +5,53 @@ using UnityEngine;
 
 public class GrassDying : MonoBehaviour {
 
-    public Sprite greenGrass;
-    public Sprite yellowGrass;
-    public Sprite deadGrass;
-    private static float day;
+    public Sprite[] grass;
+    private Sprite greenGrass;
+    private Sprite yellowGrass;
+    private Sprite brownGrass;
+    private static int day;
     private SpriteRenderer spriteRenderer;
  
 	// Use this for initialization
 	void Start () {
+        day = InGameClock.day; //pulls day from InGameClock Class
 
-        day = InGameClock.day;
-
+        print(day);
+  
+        
         spriteRenderer = GetComponent<SpriteRenderer>();
 
-        if (spriteRenderer.sprite == null)
-        {
-            spriteRenderer.sprite = greenGrass;
-        }
+        spriteRenderer.sprite = grass[day % grass.Length];
+    
         
 }
 
 // Update is called once per frame
     void Update () {
+        day = InGameClock.day; //pulls day from InGameClock Class
+        print(day);
 
-        if (day == 1)
+        if(day == 1)
         {
-            spriteRenderer.sprite = yellowGrass;
-        }
-		
-	}
+            spriteRenderer.sprite = grass[0];
+        }else if(day == 2)
+        {
+            spriteRenderer.sprite = grass[1];
+        }else
+        {
+            spriteRenderer.sprite = grass[2];
 
-    void changeGrassColor()
-    {
-        
-        if (spriteRenderer.sprite == greenGrass)
-        {
-            spriteRenderer.sprite = yellowGrass;
-        }
-        if(spriteRenderer.sprite == yellowGrass)
-        {
-            spriteRenderer.sprite = deadGrass;
         }
 
-        
+
+        /*
+        if ((day - 1) < (grass.Length - 1))
+            spriteRenderer.sprite = grass[day - 1];
+        else
+            spriteRenderer.sprite = grass[grass.Length - 1];
+    */
     }
+
+
+
 }

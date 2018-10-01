@@ -13,13 +13,13 @@ public class InGameClock : MonoBehaviour {
 	private Text seasonText;
     
 	private float minute, hour, second, year, month;
-    public static float day;
+    public static int day;
 
 	void Start(){
 
-        year = 1.0f;
-		day = 1.0f;
-		year = 1.0f;
+        year = 1;
+		day = 1;
+		year = 1;
 
 		clockText = GameObject.Find ("Clock").GetComponent<Text>();
 		dayText = GameObject.Find ("Day").GetComponent<Text>();
