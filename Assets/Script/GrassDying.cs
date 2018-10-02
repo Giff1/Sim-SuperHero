@@ -5,10 +5,9 @@ using UnityEngine;
 
 public class GrassDying : MonoBehaviour {
 
-    public Sprite[] grass;
-    private Sprite greenGrass;
-    private Sprite yellowGrass;
-    private Sprite brownGrass;
+    public Sprite greenGrass;
+    public Sprite yellowGrass;
+    public Sprite brownGrass;
     private static int day;
     private SpriteRenderer spriteRenderer;
  
@@ -16,13 +15,10 @@ public class GrassDying : MonoBehaviour {
 	void Start () {
         day = InGameClock.day; //pulls day from InGameClock Class
 
-        print(day);
-  
-        
         spriteRenderer = GetComponent<SpriteRenderer>();
 
-        spriteRenderer.sprite = grass[day % grass.Length];
-    
+       // spriteRenderer.sprite = grass[day % grass.Length];
+       // print(grass[day % grass.Length]);
         
 }
 
@@ -31,16 +27,16 @@ public class GrassDying : MonoBehaviour {
         day = InGameClock.day; //pulls day from InGameClock Class
         print(day);
 
-        if(day == 1)
+        if (day == 1)
         {
-            spriteRenderer.sprite = grass[0];
+            spriteRenderer.sprite = greenGrass;
+            
         }else if(day == 2)
         {
-            spriteRenderer.sprite = grass[1];
+            spriteRenderer.sprite = yellowGrass;
         }else
         {
-            spriteRenderer.sprite = grass[2];
-
+            spriteRenderer.sprite = brownGrass;
         }
 
 
