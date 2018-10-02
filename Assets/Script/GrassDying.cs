@@ -25,7 +25,6 @@ public class GrassDying : MonoBehaviour {
 // Update is called once per frame
     void Update () {
         day = InGameClock.day; //pulls day from InGameClock Class
-        print(day);
 
         if (day == 1)
         {
