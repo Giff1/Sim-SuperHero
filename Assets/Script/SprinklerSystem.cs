@@ -4,25 +4,34 @@ using UnityEngine;
 
 public class SprinklerSystem : MonoBehaviour {
 
-    private bool sprinklerSystem;
+    public bool sprinklerOnOff;
     private double costOfWater;
-    public GameObject sprinklers; 
+    public GameObject[] sprinklers; 
     // Use this for initialization
     
 	void Awake () {
-        
+        for(int i = 0; i < sprinklers.Length; i++)
+        {
+            sprinklers[i].SetActive(false);
+        }
 
     }
 	
     
 	// Update is called once per frame
 	void Update () {
-        sprinklers = GameObject.FindWithTag("Sprinkler Head");
-        if (Input.GetKey(KeyCode.F))
+
+
+        if (Input.GetKey(KeyCode.F) && sprinklerOnOff == false)
         {
             print("You turned on the sprinklers.");
-            sprinklers.SetActive(true);
+            for (int i = 0; i < sprinklers.Length; i++)
+            {
+                sprinklers[i].SetActive(true);
+            }
+            sprinklerOnOff = true;
         }
+        
 
     }
     
