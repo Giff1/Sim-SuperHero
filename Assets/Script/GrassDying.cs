@@ -10,6 +10,8 @@ public class GrassDying : MonoBehaviour {
     public Sprite brownGrass;
     private static int day;
     private SpriteRenderer spriteRenderer;
+
+    private bool sprinkler = false;
  
 	// Use this for initialization
 	void Start () {
