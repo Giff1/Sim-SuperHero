@@ -6,13 +6,13 @@ public class SprinklerSystem : MonoBehaviour {
 
     public bool sprinklerOnOff;
     private double costOfWater;
-    public GameObject[] sprinklers; 
+    public Animator[] animator;
     // Use this for initialization
     
 	void Awake () {
-        for(int i = 0; i < sprinklers.Length; i++)
+        for (int i = 0; i < animator.Length; i++)
         {
-            sprinklers[i].SetActive(false);
+            animator[i].Play("Sprinkler_Idle");
         }
 
     }
@@ -22,26 +22,37 @@ public class SprinklerSystem : MonoBehaviour {
 	void Update () {
 
 
-        if (Input.GetKey(KeyCode.F) && sprinklerOnOff == false)
-        {
-            print("You turned on the sprinklers.");
-            for (int i = 0; i < sprinklers.Length; i++)
-            {
-                sprinklers[i].SetActive(true);
-            }
-            sprinklerOnOff = true;
-        }
+        
         
 
     }
-    
-    void OnTriggerEnter2D(Collider2D collision)
+
+    void OnTriggerStay2D(Collider2D collision)
     {
+        
         print("you are hitting the sprinklers");
+        if (Input.GetKeyDown(KeyCode.F) && sprinklerOnOff == false)
+        {
+            print("You turned on the sprinklers.");
+            for (int i = 0; i < animator.Length; i++)
+            {
+                animator[i].Play("Sprinkler_On");
+            }
+            // animator.Play("Sprinkler_On");
+            sprinklerOnOff = true;
+        }
+        else if (Input.GetKeyDown(KeyCode.F) && sprinklerOnOff == true)
+        {
+
+            print("You turned off the sprinklers");
+            //animator.Play("Sprinkler_Off");
+            for (int i = 0; i < animator.Length; i++)
+            {
+                animator[i].Play("Sprinkler_Off");
+            }
+
+            sprinklerOnOff = false;
+        }
     }
 
-    void OnTriggerExit2D(Collider2D collision)
-    {
-        print("you walked away from sprinklers");   
-    }
 }
