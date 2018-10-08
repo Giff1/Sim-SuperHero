@@ -30,7 +30,6 @@ public class SprinklerSystem : MonoBehaviour {
     void OnTriggerStay2D(Collider2D collision)
     {
         
-        print("you are hitting the sprinklers");
         if (Input.GetKeyDown(KeyCode.F) && sprinklerOnOff == false)
         {
             print("You turned on the sprinklers.");

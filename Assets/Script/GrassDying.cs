@@ -6,18 +6,20 @@ using UnityEngine;
 public class GrassDying : MonoBehaviour {
 
     public Sprite greenGrass;
-    public Sprite yellowGrass;
-    public Sprite brownGrass;
+    public float fadeInTime = 0.05f;
+
+    //public Sprite brownGrass;
     private static int day;
     private SpriteRenderer spriteRenderer;
-
-    private bool sprinkler = false;
+    
  
 	// Use this for initialization
 	void Start () {
         day = InGameClock.day; //pulls day from InGameClock Class
 
         spriteRenderer = GetComponent<SpriteRenderer>();
+        StartCoroutine(fadeOutGreen());
+
 
        // spriteRenderer.sprite = grass[day % grass.Length];
        // print(grass[day % grass.Length]);
@@ -28,9 +30,12 @@ public class GrassDying : MonoBehaviour {
     void Update () {
         day = InGameClock.day; //pulls day from InGameClock Class
 
+        /*
         if (day == 1)
         {
             spriteRenderer.sprite = greenGrass;
+            fade();
+            
             
         }else if(day == 2)
         {
@@ -41,14 +46,25 @@ public class GrassDying : MonoBehaviour {
         }
 
 
-        /*
+      
         if ((day - 1) < (grass.Length - 1))
             spriteRenderer.sprite = grass[day - 1];
         else
             spriteRenderer.sprite = grass[grass.Length - 1];
     */
     }
+    
+    IEnumerator fadeOutGreen()
+    {
+        for(float f = 1f; f > 0; f -= 0.01f)
+        {
+            Color grass = spriteRenderer.color;
+            grass.a = f;
+            spriteRenderer.color = grass;
 
-
+            yield return new WaitForSeconds(fadeInTime);
+        }
+    }
+    
 
 }
